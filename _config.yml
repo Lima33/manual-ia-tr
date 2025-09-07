@@ -1,11 +1,11 @@
-# Título y descripción del sitio
-title: Manual de Adopción de IA Generativa
+# TÃ­tulo y descripciÃ³n del sitio
+title: "Manual de AdopciÃ³n de IA Generativa"
 description: >-
-  De espectador a protagonista de la innovación en Thomson Reuters.
-  Un manual práctico para los equipos de CX, CS y Soporte.
+  De espectador a protagonista de la innovaciÃ³n en Thomson Reuters.
+  Un manual prÃ¡ctico para los equipos de CX, CS y Soporte.
 
 # Tema visual
 theme: jekyll-theme-primer
 
 # URL de tu repositorio
-repository: repository: lima33/manual-ia-tr
+repository: "lima33/manual-ia-tr"
