@@ -1,0 +1,11 @@
+# Título y descripción del sitio
+title: Manual de Adopción de IA Generativa
+description: >-
+  De espectador a protagonista de la innovación en Thomson Reuters.
+  Un manual práctico para los equipos de CX, CS y Soporte.
+
+# Tema visual
+theme: jekyll-theme-primer
+
+# URL de tu repositorio
+repository: TU_USUARIO_DE_GITHUB/manual-ia-thomson-reuters
