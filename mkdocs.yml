@@ -1,0 +1,70 @@
+# --- Configuración del Sitio ---
+site_name: IA Training Center
+site_url: https://lima33.github.io/manual-ia-tr/
+site_author: Thomson Reuters CX/CS
+site_description: De Espectador a Protagonista de la Innovación.
+
+# --- URLs Limpias ---
+use_directory_urls: true
+
+# --- Repositorio ---
+repo_name: Lima33/manual-ia-tr
+repo_url: https://github.com/Lima33/manual-ia-tr
+edit_uri: ""
+
+# --- Navegación (ACTUALIZADA) ---
+nav:
+  - '📈 Centro de Entrenamiento': index.md
+  - '🚀 El Arte del Prompting': prompting.md
+  - '💡 Entrenamientos por Tarea':
+    - 'Onboarding y Capacitación': entrenamiento-onboarding.md
+    - 'Consultoría e Implementación': entrenamiento-consultoria.md
+    - 'Fidelización y Retención': entrenamiento-fidelizacion.md
+    - 'Análisis de Datos (Operations)': entrenamiento-analisis.md
+  - '🏆 Transformación Operativa': transformacion-operativa.md
+  - '🤝 Comunidad y Mentoría': comunidad.md  # <-- ¡NUEVA LÍNEA!
+
+# --- Tema y Diseño ---
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: default
+      primary: teal
+      accent: deep-purple
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo oscuro
+    - scheme: slate
+      primary: black
+      accent: lime
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo claro
+  features:
+    - navigation.tabs
+    - navigation.top
+    - content.code.copy
+    - content.code.annotate
+    - header.autohide
+    - navigation.expand
+    - navigation.sections
+
+# --- Estilos Personalizados ---
+extra_css:
+  - css/extra.css
+
+# --- Extensiones de Markdown ---
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
