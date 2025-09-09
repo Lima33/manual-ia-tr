@@ -16,13 +16,14 @@ edit_uri: ""
 nav:
   - '📈 Centro de Entrenamiento': index.md
   - '🚀 El Arte del Prompting': prompting.md
+  - '🔬 Laboratorio de Prompts': prompt-lab.md  # <-- ¡NUEVA PÁGINA!
   - '💡 Entrenamientos por Tarea':
     - 'Onboarding y Capacitación': entrenamiento-onboarding.md
     - 'Consultoría e Implementación': entrenamiento-consultoria.md
     - 'Fidelización y Retención': entrenamiento-fidelizacion.md
     - 'Análisis de Datos (Operations)': entrenamiento-analisis.md
   - '🏆 Transformación Operativa': transformacion-operativa.md
-  - '🤝 Comunidad y Mentoría': comunidad.md  # <-- ¡NUEVA LÍNEA!
+  - '🤝 Comunidad y Mentoría': comunidad.md
 
 # --- Tema y Diseño ---
 theme:
