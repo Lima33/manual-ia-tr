@@ -1,0 +1,5 @@
+/* Fuerza a las cajas de código a respetar los saltos de línea y evitar el scroll horizontal */
+pre > code {
+  white-space: pre-wrap !important;
+  word-break: break-word !important;
+}
